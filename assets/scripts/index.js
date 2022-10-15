@@ -4,6 +4,6 @@ function pressButtonNext() {
 }
 
 function pressButtonPrev() {
-    elem = document.getElementById('pic'); 
+    let elem = document.getElementById('pic'); 
     elem.style.backgroundImage = "url('./assets/images/1.jpg')";
 }
